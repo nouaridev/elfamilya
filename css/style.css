@@ -714,6 +714,7 @@ a{
     padding: 10px 20px;
     border-radius: 6px;
     text-align: center;
+    BACKGROUND-COLOR: #95959538;
 }
 .container .analyses .cards .card:hover{
     background-color: var(--orange);
