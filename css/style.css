@@ -146,7 +146,8 @@ a{
 
 .container .landing .center p{
     color: white;
-    font-family: "Poppins" ,sans-serif;
+
+    font-family: "Oleo Script Swash Caps", system-ui;
     padding-bottom: 20px;
     font-size: 20px;
 }
@@ -154,7 +155,7 @@ a{
 .container .landing .center a{
     color: white;
     background-color: var(--orange);
-    font-family: "Poppins" ,sans-serif;
+    font-family: "Oleo Script Swash Caps", system-ui;
     padding: 5px 10px;
     border-radius: 6px;
     font-weight: bold;
@@ -303,17 +304,22 @@ a{
 }
 .container .about .right .text .p1{
     padding-top: 10px;
+    font-family: "Oleo Script Swash Caps", system-ui;
 }
 
 .container .about .right .text a{
     color: black;
-    font-family: "Poppins" ,sans-serif;
-    font-size: 1.3vw;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: bold;
+    font-size: 1.4vw;
     padding: 5px 10px;
     width: fit-content;
     background-color: var(--orange);
     border-radius: 6px;
     margin-top: 10px;
+    cursor: nesw-resize;
 }
 
 
@@ -345,6 +351,7 @@ a{
     }
     .container .about .right .text p{
         font-size: 10px;
+        font-weight: bold;
     }
     
 }
@@ -354,4 +361,48 @@ a{
         padding-left: 10%;
         padding-right: 10%;
     }
+}
+
+
+
+/* end about */
+
+/* start of menu*/
+
+.container .menu{
+    background-color: black;
+}
+.container .menu >h1{
+    color: rgba(255, 255, 255, 0.719);
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-size: 5vw;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 2px solid var(--orange);
+}
+.container .menu >h1:hover{
+    text-shadow: 0 0 15px var(--orange);
+    
+}
+
+.container .menu .cards{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin: auto;
+    justify-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    column-gap: 5px;
+    row-gap: 10px;
+
+}
+.container .menu .cards img{
+    width: 500px;
+    border: none;
+    align-self: center;
+    transition: 0.3s;
+}
+.container .menu .cards img:hover{
+    box-shadow: 0 0 15px var(--orange);
 }
