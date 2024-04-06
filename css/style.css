@@ -148,7 +148,7 @@ a{
     color: white;
     font-family: "Poppins" ,sans-serif;
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .container .landing .center a{
@@ -157,6 +157,7 @@ a{
     font-family: "Poppins" ,sans-serif;
     padding: 5px 10px;
     border-radius: 6px;
+    font-weight: bold;
 
 }
 
