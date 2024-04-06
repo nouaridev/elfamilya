@@ -215,7 +215,7 @@ a{
 
 .container .about{
     color: #eee;
-    background-color: black;
+    background-color: #ffffff;
     height: fit-content;
     padding: 50px 10px;
     
@@ -273,7 +273,7 @@ a{
 }
 
 .container .about >h1{
-    color: rgba(255, 255, 255, 0.719);
+    color: #000000;
     font-family: "Oleo Script Swash Caps", system-ui;
     font-size: 5vw;
     width: fit-content;
@@ -295,7 +295,7 @@ a{
 
 
 .container .about .right .text p{
-    color: rgb(255, 255, 255);
+    color: #000000;
     font-family: "Poppins" ,sans-serif;
     font-size: 1.4vw;
 }
@@ -311,7 +311,7 @@ a{
 .container .about .right .text a{
     color: black;
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 5px black;
     font-family: "Oleo Script Swash Caps", system-ui;
     font-weight: bold;
     font-size: 1.4vw;
@@ -371,13 +371,13 @@ a{
 /* start of menu*/
 
 .container .menu{
-    background-color: black;
+    background-color: #d9d9d9;
     padding: 50px;
     margin-top: -2px;
 
 }
 .container .menu >h1{
-    color: rgba(255, 255, 255, 0.719);
+    color:   #000000;
     font-family: "Oleo Script Swash Caps", system-ui;
     font-size: 5vw;
     width: fit-content;
@@ -389,7 +389,7 @@ a{
 }
 
 .container .menu >p{
-    color: white;
+     color: #000000;
     text-align: center;
     padding: 10px 0 30px 0;
     width: 500px;
