@@ -445,6 +445,7 @@ a{
     box-shadow: 0 0  10px var(--orange);
     transform: scale(1.05 , 1.05);
 }
+
 .container .menu .cards .card:hover .card-cont i{
     color: var(--orange);
 }
@@ -481,6 +482,7 @@ a{
     padding: 20px;
     background-color: white;
     margin-top: -4px;
+    height: 100%;
 }
 .container .menu .cards .card .card-cont ul{
     list-style: none;
@@ -575,7 +577,8 @@ a{
     margin: auto;
     display: block;
     width: fit-content;
-    margin-top: 20px;
+    margin-top: 30px;
+   
     font-family: "Poppins",sans-serif;
 }
 .container .menu .more:hover{
@@ -635,7 +638,7 @@ a{
 
 .container .book form input,.container .book textarea{
     margin-bottom: 30px;
-    background-color:#eaeaea44 ;
+    background-color:#eaeaea71 ;
     border: 0px solid #eaeaea;
     padding: 15px 10px ;
     border-radius: 6px;
@@ -729,6 +732,15 @@ a{
     text-align: center;
     BACKGROUND-COLOR: #95959538;
 }
+@keyframes updown{
+    0%{
+        transform: translateY(-5px);
+    }
+}
+
+
+
+
 .container .analyses .cards .card:hover{
     background-color: var(--orange);
 }
