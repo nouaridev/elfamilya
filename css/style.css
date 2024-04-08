@@ -135,13 +135,16 @@ a{
 
 .container .landing .center h1{
     font-family: "Oleo Script Swash Caps", system-ui;
-    color: var(--orange);
+    color: white;
     text-shadow: 0 0 10px  rgb(0, 0, 0);
     font-size: 35px;
     padding-bottom: 15px;
     width: 500px;
     margin: auto;
     text-align: center;
+}
+.container .landing .center h1:hover{
+    text-shadow:0 0 15px var(--orange) ;
 }
 
 .container .landing .center p{
@@ -281,7 +284,13 @@ a{
     font-size: 5vw;
     width: fit-content;
     margin: auto;
-    border-bottom: 2px solid var(--orange);
+}
+
+.container .about >hr{
+    border-color: var(--orange);
+    height: 1px;
+    width: 180px;
+    margin: auto;
 }
 .container .about >h1:hover{
     text-shadow: 0 0 15px var(--orange);
@@ -394,7 +403,7 @@ a{
 }
 
 .container .menu >p{
-     color: #000000;
+     color: gray;
     text-align: center;
     padding: 10px 0 30px 0;
     width: 500px;
@@ -599,7 +608,7 @@ a{
 
 
 .container .book >p{
-    color: #000000;
+    color: gray;
    text-align: center;
    padding: 10px 0 30px 0;
    width: 500px;
